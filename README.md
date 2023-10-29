@@ -2,8 +2,8 @@
 
 **CORVO CLEANER** è uno strumento open source per la pulizia e l'ottimizzazione del tuo sistema. Questo strumento potente e flessibile ti aiuterà a mantenere il tuo sistema al massimo delle prestazioni, liberando spazio su disco e migliorando la velocità.
 
-![CORVO CLEANER in Azione](![image](https://github.com/FrancescoCorvetti/BOOSTED-PRESET-CLEANER/assets/149190275/cf353801-cd6b-4172-8bb4-d4e6e10ce3ce)
-)
+![image](https://github.com/FrancescoCorvetti/BOOSTED-PRESET-CLEANER/assets/149190275/95ff7f90-00f0-4a8c-a255-3595e0e61c6e)
+
 
 ## Funzionalità Principali
 
@@ -19,7 +19,7 @@
 
 Per iniziare con CORVO CLEANER, segui questi semplici passi:
 
-1. **Scarica e Installa**: Scarica l'ultima versione da [releases](link-to-releases) e segui le istruzioni di installazione.
+1. **Scarica e Installa**: Scarica l'ultima versione da [releases]([link-to-releases](https://github.com/FrancescoCorvetti/BOOSTED-PRESET-CLEANER)) e segui le istruzioni di installazione.
 
 2. **Scansiona il Tuo Sistema**: Avvia CORVO CLEANER e fai una scansione completa del tuo sistema per individuare i file non necessari.
 
@@ -29,16 +29,16 @@ Per iniziare con CORVO CLEANER, segui questi semplici passi:
 
 Se vuoi contribuire a questo progetto, sei il benvenuto! Puoi contribuire attraverso:
 
-- Segnalare problemi e proporre miglioramenti nella sezione [Issues](link-to-issues).
+- Segnalare problemi e proporre miglioramenti nella sezione [Issues]([link-to-issues](https://github.com/FrancescoCorvetti/BOOSTED-PRESET-CLEANER)).
 - Fare il fork del repository e inviare pull request.
 
 ## Supporto
 
-Se hai domande o hai bisogno di assistenza, puoi contattarci tramite [email](mailto:your-email@example.com).
+Se hai domande o hai bisogno di assistenza, puoi contattarci tramite [email](francescocorvettisecure@gmail.com).
 
 ## Licenza
 
-Questo progetto è distribuito con la licenza [Licenza](LICENSE) - vedi il file LICENSE per ulteriori dettagli.
+Questo progetto è distribuito con la licenza [Licenza](corvolive) - vedi il file LICENSE per ulteriori dettagli.
 
 ---
 
