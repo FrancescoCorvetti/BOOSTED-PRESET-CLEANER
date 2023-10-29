@@ -36,12 +36,7 @@ Se vuoi contribuire a questo progetto, sei il benvenuto! Puoi contribuire attrav
 
 Se hai domande o hai bisogno di assistenza, puoi contattarci tramite [email](francescocorvettisecure@gmail.com).
 
-## Licenza
-
-Questo progetto è distribuito con la licenza [Licenza](corvolive) - vedi il file LICENSE per ulteriori dettagli.
-
 ---
 
 Grazie per aver scelto CORVO CLEANER per ottimizzare il tuo sistema! Speriamo che questo strumento ti aiuti a mantenere il tuo computer al massimo delle prestazioni.
 
-[![GitHub Stars](https://img.shields.io/github/stars/your-username/your-repo.svg)](https://github.com/your-username/your-repo/stargazers)
