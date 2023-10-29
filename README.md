@@ -2,7 +2,8 @@
 
 **CORVO CLEANER** è uno strumento open source per la pulizia e l'ottimizzazione del tuo sistema. Questo strumento potente e flessibile ti aiuterà a mantenere il tuo sistema al massimo delle prestazioni, liberando spazio su disco e migliorando la velocità.
 
-![image](https://github.com/FrancescoCorvetti/BOOSTED-PRESET-CLEANER/assets/149190275/95ff7f90-00f0-4a8c-a255-3595e0e61c6e)
+![image](https://github.com/FrancescoCorvetti/BOOSTED-PRESET-CLEANER/assets/149190275/64e54d2d-760b-4397-93d8-04bd4d9375f3)
+
 
 
 ## Funzionalità Principali
