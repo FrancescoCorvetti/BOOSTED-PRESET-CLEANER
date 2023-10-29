@@ -1,0 +1,77 @@
+﻿<Window x:Class="PuliziaPC.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PuliziaPC"
+        mc:Ignorable="d"
+        x:Name="finestra"
+        Title="CORVOLIVE ULTRA CLEANER" Height="650" Width="1000" ResizeMode="NoResize" Icon="/app2.ico" WindowStartupLocation="CenterScreen" Background="White">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0*"/>
+            <RowDefinition Height="44*"/>
+            <RowDefinition Height="273*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="94*"/>
+            <ColumnDefinition Width="543*"/>
+            <ColumnDefinition Width="363*"/>
+        </Grid.ColumnDefinitions>
+        <Rectangle HorizontalAlignment="Left" Height="117" VerticalAlignment="Top" Width="1000" RenderTransformOrigin="0.523,0.523" Grid.Column="3" Fill="#FFE6E6E6" Grid.Row="1" Grid.ColumnSpan="3" Margin="-1,52,0,0" Grid.RowSpan="2">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-0.324"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0.475"/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="156" VerticalAlignment="Top" Width="1000" RenderTransformOrigin="0.523,0.523" Grid.Column="3" Fill="#FF006C93" Grid.Row="1" Grid.ColumnSpan="3" Margin="0,-1,0,0" Grid.RowSpan="2">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-0.324"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0.475"/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+
+        <Rectangle HorizontalAlignment="Left" Height="101" VerticalAlignment="Top" Width="1000" RenderTransformOrigin="0.523,0.523" Grid.Column="3" Fill="#FFE6E6E6" Grid.Row="2" Grid.ColumnSpan="3" Margin="4,445,0,0">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-0.324"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0.475"/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+
+        <Label x:Name="AnalisiTitolo" Content="Analisi del PC necessaria" HorizontalAlignment="Left" VerticalAlignment="Top" Height="51" Width="693" Foreground="White" FontSize="40" FontFamily="Bahnschrift" Grid.Row="1" FontWeight="Bold" Grid.Column="4" Margin="0,22,0,0" Grid.ColumnSpan="2"/>
+        <Label Content="Spazio da pulire: " HorizontalAlignment="Left" Margin="1,73,0,0" VerticalAlignment="Top" Height="36" Width="156" Foreground="White" FontSize="20" FontFamily="Bahnschrift" Grid.Row="1" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Grid.Column="4" Grid.RowSpan="2"/>
+        <Label Content="Ultima analisi: " HorizontalAlignment="Left" Margin="1,10,0,0" VerticalAlignment="Top" Height="31" Width="138" Foreground="White" FontSize="20" FontFamily="Bahnschrift" Grid.Row="2" FontWeight="Bold" Grid.Column="4"/>
+
+        <Label x:Name="SpazioFormatta" Content="Mai" HorizontalAlignment="Left" Margin="144,10,0,0" VerticalAlignment="Top" Height="36" Width="292" Foreground="White" FontSize="20" FontFamily="Bahnschrift Light" Grid.Row="2" FontWeight="Bold" Grid.Column="4"/>
+        <Label x:Name="UltimaData" Content="??? Mb" HorizontalAlignment="Left" Margin="162,73,0,0" VerticalAlignment="Top" Height="36" Width="292" Foreground="White" FontSize="20" FontFamily="Bahnschrift Light" Grid.Row="1" FontWeight="Bold" Grid.Column="4" Grid.RowSpan="2"/>
+        <Button x:Name="analizzare1" Grid.Column="5" Content="ANALISI" HorizontalAlignment="Left" Margin="50,48,0,0" VerticalAlignment="Top" Height="65" Width="242" Background="{x:Null}" Foreground="White" BorderBrush="White" BorderThickness="3,3,3,3" FontSize="20" Grid.Row="1" Grid.RowSpan="2" Click="analizzare1_Click"/>
+        <Label Content="©️COPYRIGHT 2023 - CORVOLIVE | COMPLETE OPENSOURCE/PROJECT" Margin="93,467,0,0" Foreground="#FF444444" FontSize="20" FontFamily="Artifakt Element Thin" Grid.Row="2" RenderTransformOrigin="0.5,0.5" Grid.Column="4" Grid.ColumnSpan="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="660" Background="{x:Null}" Height="38"/>
+        <Rectangle Grid.ColumnSpan="6" HorizontalAlignment="Left" Height="32" Margin="0,526,0,0" Grid.Row="2" VerticalAlignment="Top" Width="1000" Fill="#FFEC8484" Visibility="Hidden"/>
+        <Label x:Name="actu" Content="©️COPYRIGHT 2023 - CORVOLIVE | COMPLETE OPENSOURCE/PROJECT" Margin="93,519,0,0" Foreground="Black" FontSize="16" FontFamily="Artifakt Element Thin" Grid.Row="2" RenderTransformOrigin="0.5,0.5" Grid.Column="4" Grid.ColumnSpan="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="660" Background="{x:Null}" Visibility="Hidden" Height="27"/>
+
+        <Button x:Name="btnClear" Grid.Column="4" Content="&#xD;&#xA;&#xD;&#xA;PULIZIA" HorizontalAlignment="Left" Margin="31,96,0,0" Grid.Row="2" VerticalAlignment="Top" Height="158" Width="337" Background="#FF006C93" BorderBrush="White" Foreground="White" FontSize="22" Click="Button_Pul_Click" BorderThickness="0.4"/>
+        <Button Grid.Column="4" Content="&#xD;&#xA;&#xD;&#xA;CRONOLOGIA" HorizontalAlignment="Left" Margin="423,96,0,0" Grid.Row="2" VerticalAlignment="Top" Height="158" Width="337" Grid.ColumnSpan="2" Background="#FF006C93" BorderBrush="White" Foreground="White" FontSize="22" Click="Button_cron_Click" BorderThickness="0.4"/>
+        <Button Grid.Column="4" Content="&#xD;&#xA;&#xD;&#xA;SITO WEB" HorizontalAlignment="Left" Margin="206,273,0,0" Grid.Row="2" VerticalAlignment="Top" Height="158" Width="337" Background="#FF006C93" BorderBrush="White" Foreground="White" FontSize="22" Click="Button_Site_Click" BorderThickness="0.4"/>
+        <Image Grid.Column="4" Margin="164,130,306,347" Grid.Row="2" RenderTransformOrigin="0.958,0.269" Source="/8541770_broom_clean_icon.png" IsHitTestVisible="False"/>
+        <Image Grid.Column="5" Margin="19,138,255,334" Grid.Row="2" RenderTransformOrigin="0.958,0.269" Source="/timeline.png" IsHitTestVisible="False"/>
+        <Image Grid.Column="4" Margin="345,315,108,157" Grid.Row="2" RenderTransformOrigin="0.958,0.269" Source="/web-programming.png" IsHitTestVisible="False"/>
+
+
+
+    </Grid>
+</Window>

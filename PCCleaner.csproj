@@ -1,0 +1,64 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Image\app2.ico</ApplicationIcon>
+    <Title>CORVOLIVE ULTRA CLEANER</Title>
+    <Authors>FANCESCO CORVETTI</Authors>
+    <Company>CrowLand</Company>
+    <PackageIcon>8541770_broom_clean_icon.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="8541770_broom_clean_icon.png" />
+    <None Remove="app2.ico" />
+    <None Remove="Image\app2.ico" />
+    <None Remove="Image\cloud-computing.png" />
+    <None Remove="Image\timeline.png" />
+    <None Remove="Image\web-programming.png" />
+    <None Remove="timeline.png" />
+    <None Remove="web-programming.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Image\app2.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="PuliziaPC.csproj" />
+    <None Include="PuliziaPC.csproj.user" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="8541770_broom_clean_icon.png" />
+    <Resource Include="app2.ico" />
+    <Resource Include="Image\8541770_broom_clean_icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\app2.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\cloud-computing.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\timeline.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\web-programming.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="timeline.png" />
+    <Resource Include="web-programming.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Image\8541770_broom_clean_icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

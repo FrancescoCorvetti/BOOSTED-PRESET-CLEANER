@@ -1,0 +1,67 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Image\app2.ico</ApplicationIcon>
+    <GenerateDocumentationFile>False</GenerateDocumentationFile>
+    <SignAssembly>False</SignAssembly>
+    <Copyright></Copyright>
+    <PackageIcon>8541770_broom_clean_icon.png</PackageIcon>
+    <Authors></Authors>
+    <Company></Company>
+    <Product></Product>
+    <FileVersion>1.0.0.0</FileVersion>
+    <EnableNETAnalyzers>True</EnableNETAnalyzers>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="8541770_broom_clean_icon.png" />
+    <None Remove="app2.ico" />
+    <None Remove="cloud-computing.png" />
+    <None Remove="Image\app2.ico" />
+    <None Remove="Image\cloud-computing.png" />
+    <None Remove="Image\timeline.png" />
+    <None Remove="Image\web-programming.png" />
+    <None Remove="timeline.png" />
+    <None Remove="web-programming.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Image\app2.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="8541770_broom_clean_icon.png" />
+    <Resource Include="app2.ico" />
+    <Resource Include="cloud-computing.png" />
+    <Resource Include="Image\8541770_broom_clean_icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\app2.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\cloud-computing.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\timeline.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\web-programming.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="timeline.png" />
+    <Resource Include="web-programming.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Image\8541770_broom_clean_icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
